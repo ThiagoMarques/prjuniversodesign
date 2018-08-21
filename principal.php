@@ -14,7 +14,7 @@
 		<img src=""><label>Esqueci minha senha</label>
 	</div>
 
-
+<!--comentário-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="estilos/bootstrap/js/bootstrap.min.js"></script>
 </body>
