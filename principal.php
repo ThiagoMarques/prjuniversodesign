@@ -41,20 +41,26 @@
 	
 	<div class="container">
 		<div class="row-fluid divTeste">
-			<ul class="col col-md-12">
-				<li class="col-md-1 divTeste">Item 1</li>
-				<li class="col-md-1 divTeste">Item 2</li>
-				<li class="col-md-1 divTeste">Item 3</li>
-				<li class="col-md-1 divTeste">Item 4</li>
-				<li class="col-md-1 divTeste">Item 5</li>
-				<li class="col-md-1 divTeste">Item 6</li>
-				<li class="col-md-1 divTeste">Item 7</li>
-				<li class="col-md-1 divTeste">Item 8</li>
-				<li class="col-md-1 divTeste">Item 9</li>
-				<li class="col-md-1 divTeste">Item 10</li>
-				<li class="col-md-1 divTeste">Item 11</li>
-				<li class="col-md-1 divTeste">Item 12</li>
+			<div class="col-md-12">
+			<ul class="nav nav-tabs role="tablist">
+				<li class="active"><a href="#">Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
 			</ul>
+			</div>
+			<!-- Pills-->
+			<div class="col-md-12">
+				
+				<ul class="nav nav-pills">
+					<li class="active"><a href="#">Item 1</a></li>
+					<li><a href="#">Item 1</a></li>
+					<li><a href="#">Item 1</a></li>
+					<li><a href="#">Item 1</a></li>
+				</ul>
+			</div>
+
 		</div>
 	</div>
 
@@ -63,7 +69,7 @@
             <div class="row">
                 <div class="col-md-12">
                     
-                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="4000">
                         
                         <ol class="carousel-indicators">
                             <li data-target="#carousel01" data-slide-to="0" class="active"></li>
@@ -74,27 +80,27 @@
                         <div class="carousel-inner">
 
                             <div class="item active">
-                                <img src="imagens/01.jpg" alt="Imagem escrito Foto1" >
+                                <img src="imagens/01.jpeg" alt="Imagem escrito Foto1" >
                                 <div class="carousel-caption">
-                                    <h3>CASA 01</h3>
-                                    <p>IMÓVEL USADO</p>
+                                   <!--<h3>ENTRE EM CONTATO</h3>
+                                    <p>FAÇA SEU ORÇAMENTO</p>-->
                                 </div>
                                 
                             </div>
 
                             <div class="item">
-                                <img src="imagens/01.jpg" alt="Imagem escrito Foto2">
+                                <img src="imagens/02.jpeg" alt="Imagem escrito Foto2">
                                 <div class="carousel-caption">
-                                     <h3>CASA 02</h3>
-                                    <p>IMÓVEL USADO</p>
+                                     <!--<h3>ENTRE EM CONTATO</h3>
+                                    <p>FAÇA SEU ORÇAMENTO</p>-->
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="imagens/01.jpg" alt="Imagem escrito Foto3">
+                                <img src="imagens/01.jpeg" alt="Imagem escrito Foto3">
                              <div class="carousel-caption">
-                                  <h3>CASA 03</h3>
-                                   <p>IMÓVEL USADO</p>
+                                   <!--<h3>ENTRE EM CONTATO</h3>
+                                    <p>FAÇA SEU ORÇAMENTO</p>-->
                             </div>
                         </div>
                         
@@ -112,41 +118,20 @@
 
 	<div class="container">
 		<div class="row-fluid text-center">
+				<div class="col-md-2 divTeste" style="height: 650px">
 				<!--- menu lateral - 02 colunas no grid -->
-				<ul class="col-md-2 divTeste" style="height: 650px">
-				<label>MENU LATERAL</label>
-				<li>Item 1</li>
-				<li>Item 2</li>
-				<li>Item 3</li>
-				<li>Item 4</li>
-				<li>Item 5</li>
-				<li>Item 6</li>
-				<li>Item 7</li>
-				<li>Item 8</li>
-				<li>Item 9</li>
-				<li>Item 10</li>
-				<li>Item 11</li>
-				<li>Item 12</li>
-				<li>Item 13</li>
-				<li>Item 14</li>
-				<li>Item 15</li>
-				<li>Item 16</li>
-				<li>Item 17</li>
-				<li>Item 18</li>
-				<li>Item 19</li>
-				<li>Item 20</li>
-				<li>Item 21</li>
-				<li>Item 22</li>
-				<li>Item 23</li>
-				<li>Item 24</li>
-				<li>Item 25</li>
-				<li>Item 26</li>
-				<li>Item 27</li>
-				<li>Item 28</li>
-				<li>Item 29</li>
-				<li>Item 30</li>
-			</ul>
-
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="#">Item 1</a></li>
+					<li><a href="#">Item 1</a></li>
+					<li><a href="#">Item 2</a></li>
+					<li><a href="#">Item 3</a></li>
+					<li><a href="#">Item 4</a></li>
+					<li><a href="#">Item 5</a></li>
+					<li><a href="#">Item 6</a></li>
+					<li><a href="#">Item 7</a></li>
+					<li><a href="#">Item 8</a></li>
+				</ul>
+			</div>
 			<!-- área de imagens com conteúdo principal do site - 10 colunas no grid -->
 			<div class="col col-md-10 divTeste text-justify" style="height: 650px">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat nisl gravida, consequat velit id, dictum nulla. Sed mauris dui, iaculis sit amet suscipit id, auctor in sem. Sed eget enim sit amet tellus consectetur bibendum. Etiam metus elit, tempor vitae gravida vitae, hendrerit non ante. Nam rutrum felis quis ante euismod, in consectetur enim ultrices. Ut eget pharetra dolor, vitae aliquet sapien. Proin feugiat iaculis maximus.
