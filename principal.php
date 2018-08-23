@@ -3,7 +3,7 @@
 <head>
 	<title>Principal</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilos/bootstrap/css/bootstrap.min.css">
+	<link href="estilos/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="estilos/teste.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -58,39 +58,57 @@
 		</div>
 	</div>
 
-	<div class="container">
-		<div class="row-fluid">
 			<!-- slider princpal - 12 colunas no grid-->
-			<div class="col col-md-12 divTeste" style="height: 300px">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  					<ol class="carousel-indicators">
-    					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  					</ol>
-  				<div class="carousel-inner">
-    				<div class="carousel-item active">
-      					<img class="d-block w-100" src="..." alt="First slide">
-    				</div>
-    				<div class="carousel-item">
-      					<img class="d-block w-100" src="..." alt="Second slide">
-    				</div>
-    				<div class="carousel-item">
-      					<img class="d-block w-100" src="..." alt="Third slide">
-    				</div>
- 		 		</div>
- 			 	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    				<span class="sr-only">Previous</span>
- 			 	</a>
- 			 		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    				<span class="sr-only">Next</span>
-  				</a>
-			</div>
-			</div>
-		</div>
-	</div>
+			<div class="container center">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="3000">
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel01" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel01" data-slide-to="1"></li>
+                            <li data-target="#carousel01" data-slide-to="2"></li>
+                        </ol>
+                        
+                        <div class="carousel-inner">
+
+                            <div class="item active">
+                                <img src="imagens/01.jpg" alt="Imagem escrito Foto1" >
+                                <div class="carousel-caption">
+                                    <h3>CASA 01</h3>
+                                    <p>IMÓVEL USADO</p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="item">
+                                <img src="imagens/01.jpg" alt="Imagem escrito Foto2">
+                                <div class="carousel-caption">
+                                     <h3>CASA 02</h3>
+                                    <p>IMÓVEL USADO</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="imagens/01.jpg" alt="Imagem escrito Foto3">
+                             <div class="carousel-caption">
+                                  <h3>CASA 03</h3>
+                                   <p>IMÓVEL USADO</p>
+                            </div>
+                        </div>
+                        
+                        <a class="left carousel-control" href="#carousel01" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel01" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<div class="container">
 		<div class="row-fluid text-center">
@@ -203,7 +221,8 @@
 		</div>
 	</div>	
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="estilos/bootstrap/js/bootstrap.min.js"></script>
+	<script src="estilos/bootstrap/js/jquery-1.11.1.min.js"></script>
+    <script src="estilos/bootstrap/js/bootstrap.min.js"></script>
+    <script src="estilos/bootstrap/js/main.js"></script>
 </body>
 </html>
