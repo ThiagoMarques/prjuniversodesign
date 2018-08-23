@@ -23,8 +23,10 @@
 	<div class="container">
 		<div class="row-fluid">
 			<!--- área da logo - 02 colunas no grid -->
-			<div class="col col col-md-2 text-center divTeste" style="height: 50px">
-				LOGOTIPO
+			<div class="col-md-2 divTeste">
+				<a href="#" class="navbar-brand">
+					<img src="imagens/logo.png" alt="logo">
+				</a>
 			</div>
 
 			<!---área de input de buscas no site - 08 colunas no grid-->
@@ -39,6 +41,8 @@
 		</div>
 	</div>
 	
+	<br>
+	<br>
 	<div class="container">
 		<div class="row-fluid divTeste">
 			<div class="col-md-12">
@@ -50,7 +54,7 @@
 				<li><a href="#">Item 1</a></li>
 			</ul>
 			</div>
-			<!-- Pills-->
+			<!-- Pills
 			<div class="col-md-12">
 				
 				<ul class="nav nav-pills">
@@ -59,7 +63,7 @@
 					<li><a href="#">Item 1</a></li>
 					<li><a href="#">Item 1</a></li>
 				</ul>
-			</div>
+			</div>-->
 
 		</div>
 	</div>
