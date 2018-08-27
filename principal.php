@@ -4,14 +4,14 @@
 	<title>Principal</title>
 	<meta charset="utf-8">
 	<link href="estilos/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all">
-	<link rel="stylesheet" type="text/css" href="estilos/teste.css">
+	<link rel="stylesheet" type="text/css" href="estilos/bootstrap/teste.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 		<div class="container" align="right">
 			<div class="row-fluid">
 				<!---área de input superior de Login para acesso a área restrita - 12 colunas no grid -->
-				<div class="col col-md-12 divTeste">
+				<div class="col-md-12">
 				<label>Login</label><input type="text" name="iptEmail" placeholder="Email">
 				<label>Senha</label><input type="password" name="iptSenha" placeholder="Senha">
 				<button type="submit" class="btn btn-primary">Entrar</button>
@@ -137,16 +137,18 @@
 				</ul>
 			</div>
 			<!-- área de imagens com conteúdo principal do site - 10 colunas no grid -->
-			<div class="col col-md-10 divTeste text-justify" style="height: 650px">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat nisl gravida, consequat velit id, dictum nulla. Sed mauris dui, iaculis sit amet suscipit id, auctor in sem. Sed eget enim sit amet tellus consectetur bibendum. Etiam metus elit, tempor vitae gravida vitae, hendrerit non ante. Nam rutrum felis quis ante euismod, in consectetur enim ultrices. Ut eget pharetra dolor, vitae aliquet sapien. Proin feugiat iaculis maximus.
+			<div class="col-md-10 divTeste text-justify" style="height: 650px">
+					<div class="container">
+						<div class="row-fluid">
+							<div class="col-md-12 divTeste" style="height: 650px; width: 900px">
+							<iframe src="https://www.wimoveis.com.br/" scrolling="auto" width= "900" height= "650"form-border="1">	
 
-				Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ut mauris eu arcu elementum ullamcorper at a diam. Morbi pretium imperdiet lacus, ut semper neque laoreet nec. Suspendisse potenti. Aliquam erat volutpat. Nulla feugiat tincidunt dui, in viverra tellus ultricies at. Nullam viverra a dolor tincidunt congue. Etiam vitae tellus et ligula tempus scelerisque eget et urna. Nam placerat sapien lectus, id pellentesque arcu volutpat in.
-
-				Aenean ultrices porttitor turpis, nec laoreet odio volutpat et. Proin porta mi eu lorem interdum viverra. Praesent luctus elit vitae mattis condimentum. Ut aliquet purus quis porta molestie. Quisque varius est et nulla tristique vehicula. Aliquam eget viverra lacus. Etiam elementum elit sit amet malesuada dictum. Praesent non leo a libero pellentesque cursus. Sed sed finibus quam, sed hendrerit tortor. Nulla facilisis sem elit. Quisque ante nunc, cursus sit amet venenatis et, aliquet eu leo. Mauris consequat justo urna, vitae pulvinar nisi euismod et. Curabitur fringilla at nisi in scelerisque. Vivamus sagittis, diam vel dictum sagittis, ex ante sodales augue, eu eleifend ipsum dolor sit amet diam. Quisque id hendrerit justo. Maecenas auctor cursus tortor, et laoreet arcu sagittis nec.
-
-				Vestibulum vitae ipsum ex. Cras tristique ex ligula, in rhoncus turpis aliquet et. Vestibulum sagittis, diam efficitur mollis pulvinar, quam elit ornare quam, quis tempor lorem leo ut arcu. Nullam vitae eros erat. Praesent bibendum felis non lectus gravida blandit. Nullam eget pharetra lacus, non volutpat diam. Sed semper orci a odio viverra tincidunt. Donec scelerisque augue eu lorem mollis euismod. Quisque tristique massa porttitor, suscipit nibh ut, lobortis lacus. Donec vitae nisi sem. Vestibulum lacinia pulvinar ante quis scelerisque. Mauris condimentum sapien sit amet rhoncus tempor. Cras a aliquet nisl, ut pharetra sapien. Suspendisse at libero at dolor iaculis efficitur.
-
-				Sed tincidunt mattis sem, id lobortis dolor hendrerit tempor. Sed at cursus lectus. Duis in tincidunt massa. Sed ultricies, turpis nec placerat dictum, massa ligula tempus quam, vitae iaculis nunc ipsum ac purus. Nam facilisis sodales elit, vitae gravida nunc hendrerit vel. Donec aliquet et risus commodo tincidunt. Praesent eget neque est. Nullam felis est, sollicitudin aliquam pharetra vel, fermentum at arcu.
+							</iframe>
+							</div>
+						</div>
+					</div>
+				
+				
 			</div>
 		</div>
 	</div>
