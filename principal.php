@@ -23,19 +23,19 @@
 	<div class="container">
 		<div class="row-fluid">
 			<!--- área da logo - 02 colunas no grid -->
-			<div class="col-md-2 divTeste">
+			<div class="col-md-2">
 				<a href="#" class="navbar-brand">
 					<img src="imagens/logo.png" alt="logo">
 				</a>
 			</div>
 
 			<!---área de input de buscas no site - 08 colunas no grid-->
-			<div class="col col-md-8 text-center divTeste"  style="height: 50px">
+			<div class="col col-md-8 text-center"  style="height: 50px">
 				INPUTS DE PESQUISA
 			</div>
 
 			<!--área de cadastro de clientes - 02 colunas no grid-->
-			<div class="col col-md-2 text-center divTeste"  style="height: 50px">
+			<div class="col col-md-2 text-center"  style="height: 50px">
 				CADASTRO DE CLIENTES
 			</div>
 		</div>
@@ -44,9 +44,9 @@
 	<br>
 	<br>
 	<div class="container">
-		<div class="row-fluid divTeste">
+		<div class="row-fluid">
 			<div class="col-md-12">
-			<ul class="nav nav-tabs role="tablist">
+			<ul class="nav nav-tabs" role="tablist">
 				<li class="active"><a href="#">Item 1</a></li>
 				<li><a href="#">Item 1</a></li>
 				<li><a href="#">Item 1</a></li>
@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="col-md-12">
                     
-                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="400000000">
                         
                         <ol class="carousel-indicators">
                             <li data-target="#carousel01" data-slide-to="0" class="active"></li>
@@ -84,7 +84,7 @@
                         <div class="carousel-inner">
 
                             <div class="item active">
-                                <img src="imagens/01.jpeg" alt="Imagem escrito Foto1" >
+                                <img src="imagens/02.jpeg" alt="Imagem escrito Foto1" >
                                 <div class="carousel-caption">
                                    <!--<h3>ENTRE EM CONTATO</h3>
                                     <p>FAÇA SEU ORÇAMENTO</p>-->
@@ -101,7 +101,7 @@
                             </div>
 
                             <div class="item">
-                                <img src="imagens/01.jpeg" alt="Imagem escrito Foto3">
+                                <img src="imagens/02.jpeg" alt="Imagem escrito Foto3">
                              <div class="carousel-caption">
                                    <!--<h3>ENTRE EM CONTATO</h3>
                                     <p>FAÇA SEU ORÇAMENTO</p>-->
@@ -122,7 +122,7 @@
 
 	<div class="container">
 		<div class="row-fluid text-center">
-				<div class="col-md-2 divTeste" style="height: 650px">
+				<div class="col-md-2" style="height: 650px">
 				<!--- menu lateral - 02 colunas no grid -->
 				<ul class="nav nav-pills nav-stacked">
 					<li class="active"><a href="#">Item 1</a></li>
@@ -140,9 +140,19 @@
 			<div class="col-md-10 divTeste text-justify" style="height: 650px">
 					<div class="container">
 						<div class="row-fluid">
-							<div class="col-md-12 divTeste" style="height: 650px; width: 900px">
-							<iframe src="https://www.wimoveis.com.br/" scrolling="auto" width= "900" height= "650"form-border="1">	
-
+							<div class="col-md-12" style="height: 600px; width: 900px">
+							<div class="container">
+								<div class="row-fluid">
+									<div class="col-md-8" align="center">
+										<ul class="nav nav-tabs nav-justified" role="tablist">
+											<li><a href="view/destaques.php" target="produto">Destaques</a></li>
+											<li><a href="view/maisvendidos.php" target="produto">Mais vendidos</a></li>
+											<li><a href="view/promocionais.php" target="produto">Promocionais</a></li>
+										</ul>
+									</div>			
+								</div>
+							</div>
+							<iframe name="produto" scrolling="no" width= "900" height= "600" form-border="1">	
 							</iframe>
 							</div>
 						</div>
