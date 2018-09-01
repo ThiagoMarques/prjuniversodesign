@@ -31,7 +31,7 @@
 
 			<!---área de input de buscas no site - 08 colunas no grid-->
 			<div class="col col-md-8 text-center"  style="height: 50px">
-				INPUTS DE PESQUISA
+				<input type="text" name=""><label>Pesquisar no site.</label>
 			</div>
 
 			<!--área de cadastro de clientes - 02 colunas no grid-->
