@@ -13,13 +13,17 @@
 			<div class="row-fluid">
 				<!---área de input superior de Login para acesso a área restrita - 12 colunas no grid -->
 				<div class="col-md-12" id="divLogin">
-				<label>Login</label>&nbsp;<input type="text" name="iptEmail" placeholder="Email">
-				<label>Senha</label>&nbsp;<input type="password" name="iptSenha" placeholder="Senha">
-				<button type="submit" class="btn btn-primary">Entrar</button>
-				&nbsp;&nbsp;&nbsp;&nbsp;<img src=""><label>Esqueci minha senha</label>
+					<form  class="form-inline" method="post">	
+						<div class="form-group">
+						<label class="glyphicon glyphicon-user" for="login">Usuário</label>&nbsp;<input class="form-control" id="login" type="text" name="iptEmail" placeholder="Email">
+						&nbsp;&nbsp;&nbsp;<label class="glyphicon glyphicon-lock" for="senha">Senha </label>&nbsp;<input class="form-control" id="senha" type="password" name="iptSenha" placeholder="Senha">
+						<button type="submit" class="btn btn-primary">Entrar <label class="glyphicon glyphicon-log-in"></label></button>
+						&nbsp;&nbsp;&nbsp;&nbsp;<img src=""><label>Esqueci minha senha</label>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
-	</div>
 	
 	<div class="container">
 		<div class="row-fluid">
@@ -31,14 +35,17 @@
 			</div>
 
 			<!---área de input de buscas no site - 08 colunas no grid-->
-			<div class="col col-md-8 text-center"  style="height: 50px">
-				<br><br>
-				<input type="text" name="" size="70">&nbsp;<label>Pesquisar no site.</label>
-			</div>
+					<form method="post" class="form-inline">
+					<div class="form-group col-md-8" align="center">
+						<input class="form-control" type="text" size="50">&nbsp;
+						<button type="submit" class="btn btn-info"><label class="glyphicon glyphicon-search"></label></button>
+					</div>
+					</form>
 
 			<!--área de cadastro de clientes - 02 colunas no grid-->
 			<div class="col col-md-2 text-center"  style="height: 50px">
-				CADASTRO DE CLIENTES
+				<h4><a href="#"><span class="label label-success">Já é nosso Cliente?</span></a></h4>
+				<h4><a href="#"><span class="label label-danger">Cadastre-se aqui.</span></a></h4>
 			</div>
 		</div>
 	</div>
@@ -70,20 +77,17 @@
 		</div>
 	</div>
 			<!-- slider princpal - 12 colunas no grid-->
-<<<<<<< HEAD
 	<div class="container center">
         <div class="row">
             <div class="col-md-12">
                     
-                <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="400000000">
-=======
+                <div id="carousel01" class="carousel slide" data-ride="carousel">
 			<div class="container">
             <div class="row">
                 <div class="col-md-12">
                     
-                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="2000">
->>>>>>> 1782d8dbe17f244fc5924413b68150930186ed73
-                        
+                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="400000000">
+                 
                         <ol class="carousel-indicators">
                             <li data-target="#carousel01" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel01" data-slide-to="1"></li>
@@ -93,7 +97,7 @@
                     <div class="carousel-inner">
 
                             <div class="item active">
-                                <img src="imagens/02.jpeg" alt="Imagem escrito Foto1" >
+                                <img src="imagens/01.jpeg" alt="Imagem escrito Foto1" >
                                 <div class="carousel-caption">
                                    <!--<h3>ENTRE EM CONTATO</h3>
                                     <p>FAÇA SEU ORÇAMENTO</p>-->
@@ -102,7 +106,7 @@
                             </div>
 
                             <div class="item">
-                                <img src="imagens/02.jpeg" alt="Imagem escrito Foto2">
+                                <img src="imagens/01.jpeg" alt="Imagem escrito Foto2">
                                 <div class="carousel-caption">
                                      <!--<h3>ENTRE EM CONTATO</h3>
                                     <p>FAÇA SEU ORÇAMENTO</p>-->
@@ -110,20 +114,15 @@
                             </div>
 
                             <div class="item">
-                                <img src="imagens/02.jpeg" alt="Imagem escrito Foto3">
+                                <img src="imagens/01.jpeg" alt="Imagem escrito Foto3">
                              	<div class="carousel-caption">
                                    <!--<h3>ENTRE EM CONTATO</h3>
                                     <p>FAÇA SEU ORÇAMENTO</p>-->
-<<<<<<< HEAD
                             	</div>
                         	</div>
-                        
-=======
                             </div>
                         </div>
                         </div>
-
->>>>>>> 1782d8dbe17f244fc5924413b68150930186ed73
                         <a class="left carousel-control" href="#carousel01" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </a>
