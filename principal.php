@@ -5,17 +5,18 @@
 	<meta charset="utf-8">
 	<link href="estilos/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all">
 	<link rel="stylesheet" type="text/css" href="estilos/bootstrap/teste.css">
+	<link rel="stylesheet" type="text/css" href="estilos/bootstrap/css/personalizado.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 		<div class="container" align="right">
 			<div class="row-fluid">
 				<!---área de input superior de Login para acesso a área restrita - 12 colunas no grid -->
-				<div class="col-md-12">
-				<label>Login</label><input type="text" name="iptEmail" placeholder="Email">
-				<label>Senha</label><input type="password" name="iptSenha" placeholder="Senha">
+				<div class="col-md-12" id="divLogin">
+				<label>Login</label>&nbsp;<input type="text" name="iptEmail" placeholder="Email">
+				<label>Senha</label>&nbsp;<input type="password" name="iptSenha" placeholder="Senha">
 				<button type="submit" class="btn btn-primary">Entrar</button>
-				<img src=""><label>Esqueci minha senha</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;<img src=""><label>Esqueci minha senha</label>
 			</div>
 		</div>
 	</div>
@@ -31,7 +32,8 @@
 
 			<!---área de input de buscas no site - 08 colunas no grid-->
 			<div class="col col-md-8 text-center"  style="height: 50px">
-				<input type="text" name=""><label>Pesquisar no site.</label>
+				<br><br>
+				<input type="text" name="" size="70">&nbsp;<label>Pesquisar no site.</label>
 			</div>
 
 			<!--área de cadastro de clientes - 02 colunas no grid-->
@@ -67,13 +69,20 @@
 
 		</div>
 	</div>
-
 			<!-- slider princpal - 12 colunas no grid-->
+<<<<<<< HEAD
 	<div class="container center">
         <div class="row">
             <div class="col-md-12">
                     
                 <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="400000000">
+=======
+			<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="2000">
+>>>>>>> 1782d8dbe17f244fc5924413b68150930186ed73
                         
                         <ol class="carousel-indicators">
                             <li data-target="#carousel01" data-slide-to="0" class="active"></li>
@@ -105,16 +114,22 @@
                              	<div class="carousel-caption">
                                    <!--<h3>ENTRE EM CONTATO</h3>
                                     <p>FAÇA SEU ORÇAMENTO</p>-->
+<<<<<<< HEAD
                             	</div>
                         	</div>
                         
+=======
+                            </div>
+                        </div>
+                        </div>
+
+>>>>>>> 1782d8dbe17f244fc5924413b68150930186ed73
                         <a class="left carousel-control" href="#carousel01" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </a>
                         <a class="right carousel-control" href="#carousel01" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
-                    </div>
                 </div>
             </div>
         </div>
