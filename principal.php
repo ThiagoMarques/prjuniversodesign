@@ -69,11 +69,11 @@
 	</div>
 
 			<!-- slider princpal - 12 colunas no grid-->
-			<div class="container center">
-            <div class="row">
-                <div class="col-md-12">
+	<div class="container center">
+        <div class="row">
+            <div class="col-md-12">
                     
-                    <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="400000000">
+                <div id="carousel01" class="carousel slide" data-ride="carousel" data-interval="400000000">
                         
                         <ol class="carousel-indicators">
                             <li data-target="#carousel01" data-slide-to="0" class="active"></li>
@@ -81,7 +81,7 @@
                             <li data-target="#carousel01" data-slide-to="2"></li>
                         </ol>
                         
-                        <div class="carousel-inner">
+                    <div class="carousel-inner">
 
                             <div class="item active">
                                 <img src="imagens/02.jpeg" alt="Imagem escrito Foto1" >
@@ -102,11 +102,11 @@
 
                             <div class="item">
                                 <img src="imagens/02.jpeg" alt="Imagem escrito Foto3">
-                             <div class="carousel-caption">
+                             	<div class="carousel-caption">
                                    <!--<h3>ENTRE EM CONTATO</h3>
                                     <p>FAÇA SEU ORÇAMENTO</p>-->
-                            </div>
-                        </div>
+                            	</div>
+                        	</div>
                         
                         <a class="left carousel-control" href="#carousel01" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
