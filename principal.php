@@ -36,16 +36,18 @@
 
 			<!---área de input de buscas no site - 08 colunas no grid-->
 					<form method="post" class="form-inline">
-					<div class="form-group col-md-8" align="center">
+					<div class="form-group col-md-8" align="right">
+						<br><br>
 						<input class="form-control" type="text" size="50">&nbsp;
 						<button type="submit" class="btn btn-info"><label class="glyphicon glyphicon-search"></label></button>
 					</div>
 					</form>
 
 			<!--área de cadastro de clientes - 02 colunas no grid-->
-			<div class="col col-md-2 text-center"  style="height: 50px">
-				<h4><a href="#"><span class="label label-success">Já é nosso Cliente?</span></a></h4>
-				<h4><a href="#"><span class="label label-danger">Cadastre-se aqui.</span></a></h4>
+			<div class="col col-md-2 text-center" style="height: 50px">
+				<br><br>
+				<a href="#"><span class="label label-success">Já é nosso Cliente?</span></a>
+				<a href="#"><span class="label label-danger">Cadastre-se aqui.</span></a>
 			</div>
 		</div>
 	</div>
