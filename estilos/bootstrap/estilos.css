@@ -8,3 +8,6 @@ body {
 	height: 50px;
 }
 
+a:link, a:visited, a:hover {
+	text-decoration: none;
+}
