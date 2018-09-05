@@ -138,20 +138,122 @@
 
 	<div class="container">
 		<div class="row-fluid text-center">
-				<div class="col-md-2" style="height: 650px">
+			<div class="col-md-2" style="height: 650px">
+
 				<!--- menu lateral - 02 colunas no grid -->
-				<ul class="nav nav-pills nav-stacked">
-					<li class="active"><a href="#">Item 1</a></li>
-					<li><a href="#">Item 1</a></li>
-					<li><a href="#">Item 2</a></li>
-					<li><a href="#">Item 3</a></li>
-					<li><a href="#">Item 4</a></li>
-					<li><a href="#">Item 5</a></li>
-					<li><a href="#">Item 6</a></li>
-					<li><a href="#">Item 7</a></li>
-					<li><a href="#">Item 8</a></li>
-				</ul>
+				<div class="dropdown">
+					<!--BOTÃO 01	-->
+					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdown01" data-toggle="dropdown">
+						Item 1
+						<span class="caret"></span>
+					</button>
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="btndropdow01">
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 01</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 02</a>
+						</li>
+						
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 03</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="dropdown">
+					<!--BOTÃO 02	-->
+					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdown02" data-toggle="dropdown">
+						Item 1
+						<span class="caret"></span>
+					</button>
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="btndropdow02">
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 01</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 02</a>
+						</li>
+						
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 03</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="dropdown">
+					<!--BOTÃO 03	-->
+					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdown03" data-toggle="dropdown">
+						Item 1
+						<span class="caret"></span>
+					</button>
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="btndropdow03">
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 01</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 02</a>
+						</li>
+						
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 03</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="dropdown">
+					<!--BOTÃO 04	-->
+					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdown04" data-toggle="dropdown">
+						Item 1
+						<span class="caret"></span>
+					</button>
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="btndropdow04">
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 01</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 02</a>
+						</li>
+						
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 03</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="dropdown">
+					<!--BOTÃO 05	-->
+					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdown05" data-toggle="dropdown">
+						Item 1
+						<span class="caret"></span>
+					</button>
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="btndropdow05">
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 01</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 02</a>
+						</li>
+						
+						<li role="presentation">
+							<a href="#" class="menu-item">Produto 03</a>
+						</li>
+					</ul>
+				</div>	
+
+
 			</div>
+
 			<!-- área de imagens com conteúdo principal do site - 10 colunas no grid -->
 			<div class="col-md-10 divTeste text-justify" style="height: 650px">
 					<div class="container">

@@ -12,7 +12,10 @@
 				<div class="dropdwon">
 					<button class="btn btn-default dropdown-toggle" type="button" id="btnDropDown01" data-toggle="dropdown" >
 						Menu DropDown
+
+						<!-- é a seta que fica no botão -->
 						<span class="caret"></span>
+						
 					</button>
 					<ul class="dropdown-menu" role="menu" aria-labelledby="btnDropDown01">
 
