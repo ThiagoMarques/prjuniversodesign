@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="estilos/teste.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body onload="laco()">
 		<div class="container" align="right">
 			<div class="row-fluid">
 				<!---área de input superior de Login para acesso a área restrita - 12 colunas no grid -->
