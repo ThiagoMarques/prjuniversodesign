@@ -38,7 +38,7 @@
 					<form method="post" class="form-inline">
 					<div class="form-group col-md-8" align="right">
 						<br><br>
-						<input class="form-control" type="text" size="50">&nbsp;
+						<input class="form-control" type="text" size="50" placeholder="Digite aqui o que você procura...">&nbsp;
 						<button type="submit" class="btn btn-info"><label class="glyphicon glyphicon-search"></label></button>
 					</div>
 					</form>
@@ -54,30 +54,62 @@
 	
 	<br>
 	<br>
-	<div class="container">
-		<div class="row-fluid">
-			<div class="col-md-12">
-			<ul class="nav nav-tabs" role="tablist">
-				<li class="active"><a href="#">Item 1</a></li>
-				<li><a href="#">Item 1</a></li>
-				<li><a href="#">Item 1</a></li>
-				<li><a href="#">Item 1</a></li>
-				<li><a href="#">Item 1</a></li>
-			</ul>
-			</div>
-			<!-- Pills
-			<div class="col-md-12">
-				
-				<ul class="nav nav-pills">
-					<li class="active"><a href="#">Item 1</a></li>
-					<li><a href="#">Item 1</a></li>
-					<li><a href="#">Item 1</a></li>
-					<li><a href="#">Item 1</a></li>
-				</ul>
-			</div>-->
 
+	<!-- Menu de navegação principal -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" >
+
+					<!--botão HOME -->
+					<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdownhome" data-toggle="dropdown">
+						Home
+						<span class="caret"></span>
+					</button>		
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="btndropdownhome">
+						<li role="presentation">
+							<a href="#" class="munu-item">Item 1 de Home</a>
+						</li>
+
+						<li>
+							<a href="#" class="menu-item">Item 2 de Home</a>
+						</li>
+
+						<li>
+							<a href="#">Item 3 de Home</a>
+						</li>
+					</ul>
+					</div>
+				
+					<!--botão PRODUTOS -->
+					<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdownprodutos" data-toggle="dropdown">
+						Produtos
+						<span class="caret"></span>
+					</button>
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="btndropdownprodutos">
+						<li role="presentation">
+							<a href="#" class="menu-item">Item 1 de Produtos</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#" class="menu-item">Item 2 de Produtos</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#" class="menu-item">Item 3 de Produtos</a>
+						</li>
+					</ul>
+				    </div>
+			
+			</div>
 		</div>
 	</div>
+
+
+
 			<!-- slider princpal - 12 colunas no grid-->
 	<div class="container center">
         <div class="row">
@@ -136,11 +168,10 @@
         </div>
     </div>
 
+    <!--- Menu de navegação lateral -->
 	<div class="container">
 		<div class="row-fluid text-center">
 			<div class="col-md-2" style="height: 650px">
-
-				<!--- menu lateral - 02 colunas no grid -->
 				<div class="dropdown">
 					<!--BOTÃO 01	-->
 					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdown01" data-toggle="dropdown">
@@ -250,8 +281,6 @@
 						</li>
 					</ul>
 				</div>	
-
-
 			</div>
 
 			<!-- área de imagens com conteúdo principal do site - 10 colunas no grid -->
