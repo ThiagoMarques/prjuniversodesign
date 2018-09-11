@@ -60,6 +60,9 @@
 		<div class="row">
 			<div class="col-md-12" >
 
+					<!--grupo de botoões -->
+					<div class="btn-group-horizontal">
+
 					<!--botão HOME -->
 					<div class="dropdown">
 					<button class="btn btn-default dropdown-toggle" type="button" id="btndropdownhome" data-toggle="dropdown">
@@ -103,6 +106,10 @@
 						</li>
 					</ul>
 				    </div>
+
+				    </div>
+
+				    <!-- fim do grupo de botões -->
 			
 			</div>
 		</div>
